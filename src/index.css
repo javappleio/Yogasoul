@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('../fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fjalla One';
+  src: url('../fonts/FjallaOne-Regular.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #3A393A;
+}
+
+.slideprimary .splide__pagination__page {
+  height: 12px;
+  width: 12px;
+}
+
+.slideprimary .splide__pagination__page {
+  background-color: transparent;
+  border: 2px solid #306566;
+  opacity: 1;
+
+}
+
+.slideprimary .splide__pagination__page.is-active{
+  background-color: #306566;
+  border: 2px solid #306566;
+}
